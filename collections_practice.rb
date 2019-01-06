@@ -47,6 +47,7 @@ def find_a (array)
     if element[0] == "a"
       new_array.push(element)
     end
+  end
   new_array
 end
     
