@@ -63,7 +63,7 @@ end
    
 def add_s (array)
   array.each do |element|
-    if array.index(element) != 2
+    if array.index(element) != 1
       element = element + "s"
     end
   end
