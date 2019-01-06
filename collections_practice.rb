@@ -46,6 +46,6 @@ def find_a (array)
     element.include?("a")
   end
 end
-  
+
   
   
