@@ -24,7 +24,6 @@ end
 
 def swap_elements (array)
   array[2] <=> array[3]
-  
 end
 
 def reverse_array (array)
