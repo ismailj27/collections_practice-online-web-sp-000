@@ -32,5 +32,6 @@ def reverse_array (array)
   array.each do |element|
     new_array.unshift(element)
   end
+  new_array
 end
 
