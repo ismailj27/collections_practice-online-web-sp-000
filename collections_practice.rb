@@ -54,7 +54,7 @@ end
 def sum_array(array)
   sum = 0
   array.sort do |a,b|
-    sum = a + b
+    b = a + b
   end
   sum
 end
