@@ -28,8 +28,9 @@ def swap_elements (array)
 end
 
 def reverse_array (array)
-  array.sort do |a,b|
-    a.length <=> b.length
+  new_array = []
+  array.each do |element|
+    new_array.push
   end
 end
 
