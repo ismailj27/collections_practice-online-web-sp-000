@@ -52,7 +52,7 @@ def find_a (array)
 end
 
 def sum_array(array)
-  summed_array = 0
+  sum = 0
   array.sort do |a,b|
     sum = a + b
   end
