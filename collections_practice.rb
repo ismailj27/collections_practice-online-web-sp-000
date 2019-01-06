@@ -66,6 +66,6 @@ def add_s (array)
     if array.index(element) != 2
       element = element + "s"
     end
-  array
   end
+  array
 end
