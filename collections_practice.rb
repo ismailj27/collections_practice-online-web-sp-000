@@ -53,8 +53,9 @@ end
 
 def sum_array(array)
   sum = 0
-  array.sort do |a,b|
-    b <=> (a + b)
+  while i < array.length
+    sum = sum + array[i] 
+    i += 1
   end
   sum
 end
